@@ -1,0 +1,40 @@
+{
+  "name": "whatsapp-linux",
+  "version": "1.0.0",
+  "description": "WhatsApp unofficial desktop app for linux",
+  "main": "main.js",
+  "homepage": "https://github.com/ChimekKoo/whatsapp-linux",
+  "repository": "https://github.com/ChimekKoo/whatsapp-linux.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder --linux"
+  },
+  "keywords": [
+    "WhatsApp",
+    "WhatsApp Web",
+    "WhatsApp Desktop",
+    "WhatsApp Linux",
+    "WhatsApp for Linux",
+    "Electron"
+  ],
+  "author": "ChimekKoo <chimeksushi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^12.0.8",
+    "electron-builder": "^22.10.5"
+  },
+  "build": {
+    "appId": "com.chimekkoo.whatsapp-linux",
+    "productName": "WhatsApp for Linux",
+    "linux": {
+      "icon": "whatsapp_logo.png",
+      "target": [
+        "deb",
+        "snap",
+        "rpm"
+      ],
+      "category": "Social"
+    }
+  }
+}
