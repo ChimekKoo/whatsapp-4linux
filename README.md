@@ -9,4 +9,5 @@ WhatsApp unofficial desktop app for linux.
 - ### Install using deb/rpm package:
   Download package [here](https://github.com/ChimekKoo/whatsapp-4linux/releases), and install it the way you want.
 
-## Contact and Contributings
+## Contribution
+Pull requests are welcome. For major changes please open issue first.
