@@ -1,4 +1,4 @@
-## (Important: the project is not maintained yet.)
+## (Important: the project is no longer maintained.)
 
 # whatsapp-4linux
 WhatsApp unofficial desktop app for linux.
